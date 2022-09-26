@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DH Definitions"
-date:   "2022-09-21"
+date:   "2022-09-26"
 categories: jekyll update
 ---
 
