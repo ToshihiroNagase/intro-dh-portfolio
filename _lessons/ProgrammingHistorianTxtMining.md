@@ -1,3 +1,9 @@
+---
+layout: page
+title: Text Mining with Python
+description: This lesson uses HTRC feature reader to mine texts
+---
+
 # Programming Historian
 
 This notebook is my first programming historian assignment.
