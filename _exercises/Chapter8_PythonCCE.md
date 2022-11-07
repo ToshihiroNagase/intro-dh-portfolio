@@ -1,3 +1,9 @@
+---
+layout: page
+title: Python Crash Course Chapter 8
+description: My answers to Chapter 8 Python Crash Course Exercises
+---
+
 ```python
 #8-1. Message: Write a function called display_message() that prints one sentence telling everyone what you are learning about in this chapter. 
 #Call the function, and make sure the message displays correctly.
