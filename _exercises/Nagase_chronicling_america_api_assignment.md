@@ -50,7 +50,7 @@ import spacy
 # initial search
 #By searching chicken url: https://chroniclingamerica.loc.gov/search/pages/results/?state=&date1=1777&date2=1963&proxtext=chicken&x=18&y=15&dateFilterType=yearRange&rows=20&searchType=basic
 # add &format=json
-url = 'https://chroniclingamerica.loc.gov/search/pages/results/?state=&date1=1777&date2=1963&proxtext=chicken&x=16&y=8&dateFilterType=yearRange&rows=20&searchType=basic&format=json'
+url = 'https://chroniclingamerica.loc.gov/search/pages/results/?state=&date1=1900&date2=1963&proxtext=chicken&x=16&y=8&dateFilterType=yearRange&rows=20&searchType=basic&format=json'
 response = requests.get(url) # makes the webpage a object
 raw = response.text  # draws the text from webpage as a string
 results = json.loads(raw)  # changes string into dict
@@ -109,6 +109,8 @@ for i in range(1, total_Pages+1):  # total_pages+1
         data.append(temp_dict)
 ```
 
+    200
+    200
     200
     200
     200
