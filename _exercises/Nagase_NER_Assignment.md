@@ -243,7 +243,7 @@ def get_locations(chapter):
 
 ```python
 fifth_chapter = gibbon_by_chapter['StringText'][4]
-get_locations(third_chapter)
+get_locations(fifth_chapter)
 ```
 
 
@@ -278,13 +278,21 @@ get_locations(third_chapter)
     <tr>
       <th>0</th>
       <td>Rome</td>
-      <td>17</td>
+      <td>16</td>
       <td>423025.0</td>
       <td>41.891775</td>
       <td>12.486137</td>
     </tr>
     <tr>
       <th>1</th>
+      <td>Illyricum</td>
+      <td>1</td>
+      <td>481865.0</td>
+      <td>42.427292</td>
+      <td>17.965028</td>
+    </tr>
+    <tr>
+      <th>2</th>
       <td>Africa</td>
       <td>1</td>
       <td>775.0</td>
@@ -292,28 +300,44 @@ get_locations(third_chapter)
       <td>7.500000</td>
     </tr>
     <tr>
-      <th>2</th>
-      <td>Hercules</td>
-      <td>1</td>
-      <td>266032.0</td>
-      <td>37.500000</td>
-      <td>-0.500000</td>
-    </tr>
-    <tr>
       <th>3</th>
-      <td>Aricia</td>
+      <td>Misenum</td>
       <td>1</td>
-      <td>422844.0</td>
-      <td>41.721400</td>
-      <td>12.673347</td>
+      <td>432941.0</td>
+      <td>40.786279</td>
+      <td>14.084884</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>Cinna</td>
+      <td>Byzantium</td>
+      <td>5</td>
+      <td>520985.0</td>
+      <td>41.005902</td>
+      <td>28.973882</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Perinthus</td>
       <td>1</td>
-      <td>483971.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>511357.0</td>
+      <td>40.971013</td>
+      <td>27.952973</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Pontus</td>
+      <td>1</td>
+      <td>857287.0</td>
+      <td>43.078685</td>
+      <td>34.742551</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Macedonia</td>
+      <td>1</td>
+      <td>491656.0</td>
+      <td>41.250000</td>
+      <td>21.750000</td>
     </tr>
   </tbody>
 </table>
@@ -324,7 +348,7 @@ get_locations(third_chapter)
 
 ```python
 # save result as CSV
-get_locations(fifth_chapter).to_csv('ch4gibbon_places.csv')
+get_locations(fifth_chapter).to_csv('ch5gibbon_places.csv')
 ```
 
 
