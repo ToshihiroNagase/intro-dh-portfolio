@@ -1,3 +1,10 @@
+---
+layout: page
+title: Bokeh and Panda
+description: This lesson uses Bokeh to create interactive data visualization tools
+---
+
+
 ## Basics of Bokeh First Plot
 
 Working on this programming historian lesson has provided me with new tools around data visualization. From this lesson, I learned how to use a python library to create interactive data visualizations for a web browser. This is a tool similar to matplotlib. The differences between these two tools are that matplotlib is useful for quick visualization of data, while bokeh creates interactive visualizations. This draws on the reading that we did around data literacy vs. visual literacy. The Bokeh tools allows users to visually interact in a exploratative manner. Bokeh is used to allow the user to explore information on their own while matplotlib seems to be primarily used for representing data.
