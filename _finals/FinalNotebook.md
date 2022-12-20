@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Final Project Notebook
-description: final-project
+description: These are my notes for the final project.
 ---
 
 # Notebook for Final Project: Zipf's model
