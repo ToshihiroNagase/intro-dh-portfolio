@@ -47,6 +47,8 @@ collections:
     output: true
   lessons: 
     output: true
+  finals:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
